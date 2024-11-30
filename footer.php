@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-12">
                 <?php
-                include "../admin/config.php";
+                include "admin/config.php";
                 $sql = "SELECT * FROM setting";
                 $result = mysqli_query($conn, $sql) or die("Query Failed");
                 if(mysqli_num_rows($result) > 0) {

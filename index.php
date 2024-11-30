@@ -8,7 +8,7 @@
                     <div class="post-container">
                         <?php
                             // include config file 
-                            include "../admin/config.php";
+                            include "admin/config.php";
                             $limit = 10;
                             if(isset($_GET['page'])) {
                                 $page = mysqli_real_escape_string($conn, $_GET['page']);
