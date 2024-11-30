@@ -73,7 +73,6 @@ switch($page) {
             <!-- LOGO -->
             <div class=" col-md-offset-4 col-md-4">
                 <?php
-                include "config.php";
                 $sql = "SELECT * FROM setting";
                 $result = mysqli_query($conn, $sql) or die("Query Failed");
                 if(mysqli_num_rows($result) > 0) {

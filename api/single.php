@@ -8,7 +8,7 @@
                     <div class="post-container">
                         <?php
                             // include config file 
-                            include "admin/config.php";
+                            include "../admin/config.php";
 
                             // Get id
                             if(isset($_GET['id'])) {

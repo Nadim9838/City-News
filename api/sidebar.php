@@ -17,7 +17,7 @@
         <h4>Recent Posts</h4>
         <?php
             // include config file 
-            include "admin/config.php";
+            include "../admin/config.php";
             $limit = 10;
             
             // Query to get all data
